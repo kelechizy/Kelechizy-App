@@ -1,0 +1,324 @@
+<resources>
+    // APPLICATION
+
+    <string name="app_name">Kelechizy App</string>
+    <string name="splash_theme">Splash</string>
+
+
+    // MENU
+
+    <string name="action_settings">Settings</string>
+    <string name="action_rate">Rate This App</string>
+    <string name="action_share">Share</string>
+
+
+    // TABS
+    <string-array name="tab_icons">
+        <item>@drawable/ic_home_black_24dp</item>
+        <item>@drawable/ic_person_black_24dp</item>
+        <item>@drawable/ic_desktop_mac_black_24dp</item>
+        <item>@drawable/ic_room_black_24dp</item>
+    </string-array>
+
+    <string-array name="tab_titles">
+        <item>Kelechizy</item>
+        <item>About</item>
+        <item>Portfolio</item>
+        <item>Contact</item>
+    </string-array>
+
+    <string name="title_section1">Kelechizy</string>
+    <string name="title_section2">About</string>
+    <string name="title_section3">Portfolio</string>
+    <string name="title_section4">Contact</string>
+
+
+    // SHARE
+    <string name="share_message">Check out Kelechizy App for your smartphone. Download it today from http://kelechizy.com/dl/ #KelechizyApp</string>
+    <string name="share_subject">Kelechizy App: Android</string>
+    <string name="share_message_full">Hey, I just downloaded Kelechizy App on my Android. Get it now from https://kelechizy.com/dl/ #KelechizyApp</string>
+
+
+
+    // ABOUT - BIOGRAPHY
+
+    <string name="about_name">Kelechi C. Amaechi Ngaka</string>
+    <string name="about_tagline">Computer Scientist</string>
+    <string name="about_dob">June 23, 1992</string>
+    <string name="about_nationality">Nigerian</string>
+    <string name="about_address">lives in Bikini Bottom</string>
+    <string name="about_skills">Software Development, Web Design and Mobile Apps</string>
+    <string name="about_interest">Tech, Design, Cooking, Soccer and Magic</string>
+    <string name="about_movie">Inception and Interstellar </string>
+    <string name="about_inspiration">Mom and Dad </string>
+    <string name="about_summary">"I enjoy creating things code/food/design and a bit of hardware stuff. When I am not creating stuff, I just watch any movie or re-watch my favs(Interstellar or Inception) and  play football(soccer), learning new trick skills.
+        My weakness should be *thinking* Pride... and its also a good thing too. Well, Im live every other human, we think we are different but logically we are the same.
+        "</string>
+
+    // ABOUT - TITLES
+
+    <string name="about_service_title">Skills</string>
+    <string name="about_experience_title">Experience</string>
+    <string name="about_education_title">Education</string>
+    <string name="about_interest_title">Interests</string>
+    <string name="about_summary_title">Bio</string>
+    <string name="about_languages_title">Languages</string>
+    <string name="about_movies_title">Fav Movies</string>
+    <string name="about_inspiration_title">Inspirational People</string>
+
+
+    // EXPERIENCE
+
+    <string name="title_activity_experience">Experience</string>
+
+    <array name="experience">
+        <item>Transparent</item>
+        <item>@array/experience_army</item>
+        <item>@array/experience_aiteo</item>
+        <item>@array/experience_magicdreams</item>
+        <item>@array/experience_mindworks</item>
+    </array>
+
+    <string-array name="Transparent">
+        <item>empty</item>
+    </string-array>
+
+    <string-array name="experience_army">
+        <item>@drawable/experience_narmy</item>
+        <item>32 Artillery Brigade, Nigerian Army</item>
+        <item>Systems and Network Administrator</item>
+        <item>NYSC</item>
+        <item>Sep 2014 - Aug 2015</item>
+        <item>"Key Accomplishment : Embarked on a Computer Networking project to facilitate secure file access, transfer and resource sharing between computers within the Headquarters network. This tripled (x3) job outputs compared to the older workflow."</item>
+        <item>@drawable/experience_narmy_large</item>
+    </string-array>
+
+    <string-array name="experience_aiteo">
+        <item>@drawable/experience_aiteo</item>
+        <item>Aiteo Energy Resources</item>
+        <item>Software Engineer</item>
+        <item>Intern</item>
+        <item>May 2014 - Aug 2014</item>
+        <item>"Engaged in the development and support of proprietary software applications used to automate operations across departments within the organization. In addition to that, ensuring systems hardware, software and related infrastructure adhere to organizational values"</item>
+        <item>@drawable/experience_aiteo_large</item>
+    </string-array>
+
+    <string-array name="experience_magicdreams">
+        <item>@drawable/experience_magicdreams</item>
+        <item>The Magicdreams Company</item>
+        <item>Web Developer</item>
+        <item>Freelance</item>
+        <item>Dec 2012 - Dec 2013</item>
+        <item>"I designed and deployed modern professional websites, conducting routine maintenance, optimization and support services for company clients."</item>
+        <item>@drawable/experience_magicdreams_large</item>
+    </string-array>
+
+    <string-array name="experience_mindworks">
+        <item>@drawable/experience_mindworks</item>
+        <item>Mindworks Solutions Limited</item>
+        <item>Computer Programmer</item>
+        <item>Industrial Training</item>
+        <item>May 2012 - Nov 2012</item>
+        <item>"Key Accomplishment: Engaged in the development of a Local Area Network (LAN) Messaging C# Application for 0Windows O.S that facilitated Communication and File Transfer between staff within the organization."</item>
+        <item>@drawable/experience_mindworks_large</item>
+    </string-array>
+
+
+    // SERVICE
+
+    <string name="title_activity_service">Service</string>
+
+    <array name="service">
+        <item>@array/service_coding</item>
+        <item>@array/service_webdesign</item>
+        <item>@array/service_mobile</item>
+        <item>@array/service_design</item>
+    </array>
+
+    <string-array name="service_coding">
+        <item>@drawable/ic_code_black_24dp</item>
+        <item>Software Development</item>
+        <item>Java, C#</item>
+        <item>"Solving problems with innovative solutions driven by the right technology."</item>
+        <item>Visual Basic, C, C++, Pascal and Ruby </item>
+        <item>@drawable/service1</item>
+        <item>"My first programming language was in Visual Basic developing GUI applications like Calculators and Simultaneous Equation Solvers. Later spent almost 2 years learning C programming language. Along the way I created a Tic Tac Toe game (X and O) with an Artificial Intelligence (AI) - Kchizy. Next year, Hello Java and C#. To me Java was ok and I developed Console, GUI, Animations on Web Applets and Java Server Pages (JSP), until I met C Sharp (C#) and fell in love with the .NET Framework. Java and C Sharp (C#) are similar, but C Sharp was sweeeeet. Created lots of Windows desktop applications with Installers including a Web Browser, Mailers, Music Player and a LAN Messaging app. Other languages Ive stumbled upon were PASCAL, C++ and Ruby."
+        </item>
+
+    </string-array>
+
+    <string-array name="service_webdesign">
+        <item>@drawable/ic_web_black_18dp</item>
+        <item>Website Design</item>
+        <item>PHP, Ruby on Rails, ASP.NET</item>
+        <item>Creating beautiful websites for real people and real businesses.</item>
+        <item>"HTML, CSS, WordPress, Joomla, CakePHP and OpenCart "</item>
+        <item>@drawable/service2</item>
+        <item>"Art, we are just inseparable ... its in my DNA!"</item>
+    </string-array>
+
+    <string-array name="service_mobile">
+        <item>@drawable/ic_phone_android_black_18dp</item>
+        <item>Mobile Apps</item>
+        <item>Android, PhoneGap</item>
+        <item>Every Idea, Every Business needs a Mobile App... Its now a necessity</item>
+        <item>Windows Phone</item>
+        <item>@drawable/service3</item>
+        <item>"Started mobile development for Windows Phone and I lost interest. Later in 2011, tried to learn Android and immediately lost interest.  Later tried PhoneGap and built cross platform apps for Android and Windows. Fast Forward years later... Android rolled out cool new tools and designs (Material), I switched to Android Development fulltime and have been playing catchup because Android changes all the time."</item>
+
+    </string-array>
+
+    <string-array name="service_design">
+        <item>@drawable/ic_palette_black_24dp</item>
+        <item>Leisure</item>
+        <item>Fireworks, Python, Servers, Vines</item>
+        <item>"Rihanna: Work Work Work... \nKc: Play Play Play"</item>
+        <item>"Sudoku, FIFA 15, Dj Earworm Mashups"</item>
+        <item>@drawable/service4</item>
+    </string-array>
+
+
+    // EDUCATION
+
+    <string name="title_activity_education">Education</string>
+
+    <array name="education">
+        <item>Transparent</item>
+        <item>@array/education_unilag</item>
+        <item>@array/education_airforce</item>
+        <item>@array/education_chrisland</item>
+    </array>
+
+    <string-array name="education_unilag">
+        <item>@drawable/education_unilag</item>
+        <item>University of Lagos</item>
+        <item>BSc. Computer Sciences, Second Class Honours (Upper Division)</item>
+        <item>2013</item>
+    </string-array>
+
+    <string-array name="education_airforce">
+        <item>@drawable/education_airforce</item>
+        <item>Air Force Secondary School Ikeja</item>
+        <item>WASSCE and NECO</item>
+        <item>2008</item>
+    </string-array>
+
+    <string-array name="education_chrisland">
+        <item>@drawable/education_chrisland</item>
+        <item>Chrisland School Opebi</item>
+        <item>FSLC</item>
+        <item>2002</item>
+    </string-array>
+
+
+    // PORTFOLIO
+
+    <string name="title_portfolio">Portfolio</string>
+
+    <string name="title_activity_portfolio">Portfolio</string>
+
+    <string-array name="portfolio_names">
+        <item>Kelechizy App</item>
+        <item>Meet The Employers</item>
+        <item>NYSC Ondo State</item>
+        <item>Ongold Resources</item>
+        <item>VPoll</item>
+        <item>QuoteFrame</item>
+        <item>Lagos Laidbac</item>
+        <item>Mind Messenger</item>
+        <item>LAN Messenger</item>
+        <item>NACOSS UNILAG</item>
+    </string-array>
+
+    <string-array name="portfolio_years">
+        <item>2015</item>
+        <item>2015</item>
+        <item>2015</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2013</item>
+    </string-array>
+
+    <string-array name="portfolio_category">
+        <item>Mobile App </item>
+        <item>Website Design</item>
+        <item>Website Design</item>
+        <item>Website Design</item>
+        <item>Web App</item>
+        <item>Web Widget</item>
+        <item>Website Design</item>
+        <item>Desktop App</item>
+        <item>Desktop and Web App</item>
+        <item>Website Design</item>
+    </string-array>
+
+    <string-array name="portfolio_images">
+        <item>@drawable/portfolio_16_thumb</item>
+        <item>@drawable/portfolio_15_thumb</item>
+        <item>@drawable/portfolio_14_thumb</item>
+        <item>@drawable/portfolio_13_thumb</item>
+        <item>@drawable/portfolio_12_thumb</item>
+        <item>@drawable/portfolio_11_thumb</item>
+        <item>@drawable/portfolio_10_thumb</item>
+        <item>@drawable/portfolio_9_thumb</item>
+        <item>@drawable/portfolio_8_thumb</item>
+        <item>@drawable/portfolio_2_thumb</item>
+    </string-array>
+
+    <string-array name="portfolio_images_large">
+        <item>@drawable/portfolio_16</item>
+        <item>@drawable/portfolio_15</item>
+        <item>@drawable/portfolio_14</item>
+        <item>@drawable/portfolio_13</item>
+        <item>@drawable/portfolio_12</item>
+        <item>@drawable/portfolio_11</item>
+        <item>@drawable/portfolio_10</item>
+        <item>@drawable/portfolio_9</item>
+        <item>@drawable/portfolio_8</item>
+        <item>@drawable/portfolio_2</item>
+
+    </string-array>
+
+    <string-array name="portfolio_details">
+        <item>"Kelechizy App (version 0.2) is a mobile app about Kelechizy. It is curated stuff about kc including education, experience, contact and a blog feed. This fixed minor bug in previous versions. Compatible on Android and Windows Phone.\nTechnology : HTML, CSS, JS and PhoneGap"</item>
+        <item>Meet The Employers is a career based workshop by GINA Consulting, designed to explore the missing elements in graduates and give them insights to what employers are looking for. Collaborated in the Full-Stack development of the website, design, SEO, SMO and Tech support.</item>
+        <item>Co-developed with my fellow ICT CDS team to create a website for NYSC Ondo State, Akure. Focused on design, content and user experience testing. Launched in July 2nd 2015 and currently maintained by the current executives.</item>
+        <item>OnGold Resources Limited is a trading company specialized in Real Estate, Import / Export and Merchandising in Nigeria. Engaged in the design of a modern professional website for the company.</item>
+        <item>VPoll is  an online voting web application for polls, survey and nominations. Create polls (private, public or grouped), Share link to friends, Embed polls on any website and View results whenever wherever. Developed with PHP and MySql. </item>
+        <item>QuoteFrame is a web widget used to display random motivational quotes of influential people. Its first release was an IFrame widget, you just copy an paste the HTML code to your website. Tested with my friends blog and later became obsolete.</item>
+        <item>Lagos Laidbac is an urban merchandise company that engages in the production of Shirts, Caps and Phone Accessories. Collaborated in development of LLB\'s first website and now completely redesigned and managed by the team.</item>
+        <item>Mind Messenger is a desktop app that uses LAN for messaging and file transfer. A Windows based application built as an Industrial Training Project with C#.</item>
+        <item>LAN Messenger is a desktop app and web service. It was developed with C#(desktop) and PHP(web) to handle file upload and communication through a Local Server. #Clients</item>
+        <item>Engaged in website design of National Association of Computer Science Students (NACOSS), Unilag. Powered by Wordpress and awesome wp-plugins. </item>
+    </string-array>
+
+
+    // CONTACT
+
+    <string name="title_contact">Contact</string>
+    <string name="contact_name">Kelechi C. Amaechi Ngaka</string>
+    <string name="contact_address_title">Address</string>
+    <string name="contact_email_title">Email</string>
+    <string name="contact_phone_title">Phone</string>
+    <string name="contact_website_title">Website</string>
+    <string name="contact_social_title">Social Profiles</string>
+    <string name="contact_address_url">https://goo.gl/maps/kkA1169i4tA2</string>
+    <string name="contact_skype_username">kelechizy</string>
+    <string name="contact_facebook_username">kelechizy</string>
+    <string name="contact_twitter_username">kelechizy</string>
+    <string name="contact_phone">+1 747 254 5331</string>
+    <string name="contact_email">kelechi.charles@gmail.com</string>
+    <string name="contact_address">Bikini Bottom</string>
+    <string name="contact_website">www.kelechizy.com</string>
+    <string name="contact_website_url">http://www.kelechizy.com</string>
+    <string name="contact_facebook_url">http://www.facebook.com/kelechizy</string>
+    <string name="contact_twitter_url">http://www.twitter.com/kelechizy</string>
+    <string name="contact_linkedin_url">http://www.linkedin.com/in/kelechizy</string>
+    <string name="contact_google_plus">Kelechi C. Amaechi Ngaka</string>
+    <string name="contact_google_plus_url">https://plus.google.com/105355714932519842411</string>
+
+</resources>
