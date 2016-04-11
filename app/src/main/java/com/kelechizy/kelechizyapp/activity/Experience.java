@@ -20,7 +20,6 @@ public class Experience extends AppCompatActivity {
 
     TypedArray mExpArray;
     TypedArray itemDef;
-
     String experienceName;
     String experienceRole;
     String experienceType;
