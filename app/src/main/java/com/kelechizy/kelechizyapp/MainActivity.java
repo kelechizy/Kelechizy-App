@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
 
         tabLayout.getTabAt(0).setIcon(R.drawable.ic_home_black_24dp);
         tabLayout.getTabAt(1).setIcon(R.drawable.ic_person_black_24dp);
-        tabLayout.getTabAt(2).setIcon(R.drawable.ic_desktop_mac_black_24dp);
+        tabLayout.getTabAt(2).setIcon(R.drawable.ic_work_black_24dp);
         tabLayout.getTabAt(3).setIcon(R.drawable.ic_local_phone_black_24dp);
 
         for(int i=1; i<tabLayout.getTabCount(); i++)
