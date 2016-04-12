@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/scrollView" >
+    android:id="@+id/scrollView"
+    android:background="#FFF">
 
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -37,30 +38,37 @@
                 android:scaleType="center"
                 android:layout_gravity="center" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Large Text"
-                android:id="@+id/serviceName"
-                android:layout_gravity="center"
-                android:paddingLeft="5dp" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Large Text"
+                    android:id="@+id/serviceName"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp" />
+
+                <TextView android:text="test" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/serviceTechnology"
+                    android:layout_gravity="left|center_horizontal"
+                    android:textColor="@color/ColorBlack"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp" />
+            </LinearLayout>
+
         </LinearLayout>
 
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="10dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp">
-
-            <TextView android:text="" android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:id="@+id/serviceTechnology"
-                android:layout_gravity="left|center_horizontal"
-                android:textColor="@color/ColorBlack" />
+            android:layout_margin="5dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -68,8 +76,7 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="Strengths"
                 android:id="@+id/textView17"
-                android:textColor="@color/ColorPrimaryDark"
-                android:layout_marginTop="10dp" />
+                android:textColor="@color/ColorPrimaryDark" />
 
             <TextView
                 android:layout_width="wrap_content"
