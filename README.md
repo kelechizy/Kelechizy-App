@@ -13,7 +13,5 @@ A beautiful android portfolio app for Kelechizy!
 Download from Google Play Store<br>
 https://play.google.com/store/apps/details?id=com.kelechizy.kelechizyapp
 
-<a target="blank" href= https://play.google.com/store/apps/details?id=com.kelechizy.kelechizyapp>
 <img src="http://www.kelechizy.com/dl/KelechizyApp.jpg" />
-</a>
 
